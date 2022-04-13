@@ -51,6 +51,11 @@
     <artifactId>javax.activation-api</artifactId>
     <version>1.2.0</version>
 </dependency>
+   <dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-ui</artifactId>
+      <version>1.6.7</version>
+   </dependency>
 		
 	</dependencies>
 
@@ -64,7 +69,7 @@
 		<finalName>rssserver</finalName>
 		<resources>
 			<resource>
-				<directory>src/main/resources/xml</directory>
+				<directory>src/main/resources</directory>
 			</resource>
 		</resources>
 	</build>
