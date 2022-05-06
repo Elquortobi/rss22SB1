@@ -14,7 +14,7 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-@EntityScan(basePackages = {"fr.univrouen.rss22.entities"})  // scan JPA entities
+@EntityScan(basePackages = {"fr.univrouen.rss22.entity"})  // scan JPA entities
 @SpringBootApplication
 public class Rss22Sb1Application implements WebMvcConfigurer {
     private static final String[] CLASSPATH_RESOURCE_LOCATIONS = {

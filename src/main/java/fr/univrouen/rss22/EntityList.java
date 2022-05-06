@@ -1,4 +1,7 @@
-package fr.univrouen.rss22.entities;
+package fr.univrouen.rss22;
+
+import fr.univrouen.rss22.dto.ItemDTO;
+import fr.univrouen.rss22.entity.Item;
 
 import javax.xml.bind.annotation.XmlAnyElement;
 import javax.xml.bind.annotation.XmlRootElement;
@@ -6,8 +9,8 @@ import javax.xml.bind.annotation.XmlSeeAlso;
 import java.util.ArrayList;
 import java.util.List;
 
-@XmlRootElement
-@XmlSeeAlso({Item.class})
+@XmlRootElement(name = "item")
+@XmlSeeAlso({ItemDTO.class})
 
 public class EntityList<T> {
 

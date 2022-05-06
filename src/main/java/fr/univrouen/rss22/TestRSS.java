@@ -1,4 +1,4 @@
-package fr.univrouen.rss22.entities;
+package fr.univrouen.rss22;
 
 import java.io.IOException;
 import java.io.InputStream;
