@@ -58,6 +58,6 @@ public class ItemController {
 
     @GetMapping("/help")
     public void apiDocumentation(HttpServletResponse response) throws IOException {
-        response.sendRedirect("/swagger-ui/index.html");
+        response.sendRedirect("https://app-955e59a3-7f47-4987-afcf-9185bcdbdac9.cleverapps.io/swagger-ui/index.html");
     }
 }
