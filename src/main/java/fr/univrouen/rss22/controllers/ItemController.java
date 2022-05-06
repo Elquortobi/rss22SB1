@@ -56,5 +56,8 @@ public class ItemController {
         itemService.deleteItem(guid);
     }
 
-   
+    @GetMapping("/help")
+    public void apiDocumentation(HttpServletResponse response) throws IOException {
+        response.sendRedirect("/swagger-ui/index.html");
+    }
 }
