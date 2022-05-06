@@ -22,7 +22,7 @@ import java.net.URISyntaxException;
 import java.util.List;
 import java.util.UUID;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "https://app-75fb62db-7776-480a-ae0d-957a96e264d7.cleverapps.io"})
 @RestController
 public class ItemController {
     private final ItemService itemService;
